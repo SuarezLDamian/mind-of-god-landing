@@ -2,7 +2,7 @@ import React from 'react';
 
 const Faq = () => {
   return (
-    <section id="reviews" className="px-12 py-24 grid place-items-center bg-slate-800">
+    <section id="faq" className="px-12 py-24 grid place-items-center bg-slate-800">
       <h2 className="font-lato text-2xl md:text-5xl font-bold text-gray-200">DUDAS FRECUENTES</h2>
       <div className="lg:px-36 w-full text-gray-200 py-12">
         <div className="collapse collapse-arrow bg-slate-500">
