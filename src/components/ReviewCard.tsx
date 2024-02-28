@@ -7,7 +7,7 @@ interface CardProps {
 
 const ReviewCard = (props: CardProps) => {
   return (
-    <div className="card md:w-96 bg-slate-500 shadow-xl md:p-4">
+    <div className="card md:w-96 bg-gray-500 shadow-xl md:p-4">
       <div className="card-body">
         <div className="flex flex-row justify-center mb-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
