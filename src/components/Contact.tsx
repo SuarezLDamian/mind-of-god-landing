@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact" className="px-12 py-24 relative flex flex-col justify-center overflow-hidden bg-gray-950">
       <div className="w-full m-auto rounded-md shadow-md lg:max-w-xl">
-        <h2 className="font-lato text-4xl md:text-5xl font-bold text-center text-gray-200 mb-8">CONTACTANOS</h2>
+        <h2 className="font-serif text-4xl md:text-5xl font-bold text-center text-gray-200 mb-8">CONTACTANOS</h2>
         <form className="space-y-4"
           action="https://formbold.com/s/oyW8K"
           method="POST">

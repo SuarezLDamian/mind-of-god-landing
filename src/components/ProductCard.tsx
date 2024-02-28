@@ -10,9 +10,9 @@ const ProductCard = (props: CardProps) => {
   return (
     <div className="card md:w-96 bg-gray-500 shadow-xl md:p-4">
       <figure><img className="size-2/4 md:size-full" src={props.image} alt="T-shirt" /></figure>
-      <div className="card-body">
+      <div className="card-body font-lato">
         <h2 className="card-title text-slate-900">{props.name}</h2>
-        <p className="font-serif text-gray-200">{props.description}</p>
+        <p className="text-gray-200">{props.description}</p>
         <div className="card-actions justify-end">
           <button className="btn btn-primary">Ver en la tienda</button>
         </div>
